@@ -5,8 +5,7 @@ const sumAll = function(a, b) {
     let sumTotal = 0; 
     let min = Math.min(a,b);
     let max = Math.max(a,b);
-  
-    else if (min < 0 || max < 0 ) {
+ if (min < 0 || max < 0 ) {
         return "ERROR";
     } else { 
             for (let i = min ; i <= max; i++){
